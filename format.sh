@@ -17,7 +17,7 @@ fi
 
 source ~/.zshrc
 
-curl -o .clang-format https://raw.githubusercontent.com/DingYusong/formatCommander/master/.clang-format
-
 $SPACECOMMANDER/setup-repo.sh
+
+curl -o .clang-format https://raw.githubusercontent.com/DingYusong/formatCommander/master/.clang-format
 
