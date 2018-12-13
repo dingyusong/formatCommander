@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#Copyright (c) 2018 DingYusong
+
 
 if [ ! -d ~/tools ]; then
     echo "create tools folder under $HOME"
