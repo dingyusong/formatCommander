@@ -9,6 +9,7 @@ if [ ! -d ~/tools ]; then
 fi
 
 if [ ! -d ~/tools/spacecommander ]; then
+	cd ~/tools
     echo "download spacecommander to $HOME/tools"
     git clone git@github.com:square/spacecommander.git    
 fi
@@ -20,9 +21,9 @@ fi
 
 source ~/.zshrc
 
-$SPACECOMMANDER/setup-repo.sh
-
 cd $oldpwd
+
+$SPACECOMMANDER/setup-repo.sh
 
 curl -o .clang-format https://raw.githubusercontent.com/DingYusong/formatCommander/master/.clang-format
 
