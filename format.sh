@@ -22,8 +22,5 @@ fi
 source ~/.zshrc
 
 cd $oldpwd
-
 $SPACECOMMANDER/setup-repo.sh
-
-curl -o .clang-format https://raw.githubusercontent.com/DingYusong/formatCommander/master/.clang-format
 
