@@ -10,9 +10,6 @@ IndentWidth: 4
 # 连续的空行保留几行
 MaxEmptyLinesToKeep: 1
 
-# 圆括号的换行方式
-BreakBeforeBraces: Attach
-
 # 是否允许短方法单行
 AllowShortFunctionsOnASingleLine: true
 
@@ -21,9 +18,6 @@ AllowShortIfStatementsOnASingleLine: true
 
 # 在未封闭(括号的开始和结束不在同一行)的括号中的代码是否对齐
 AlignAfterOpenBracket: true
-
-# 圆括号的换行方式
-BreakBeforeBraces: Attach
 
 # switch的case缩进
 IndentCaseLabels: true
@@ -79,4 +73,22 @@ SpacesBeforeTrailingComments: 2
 
 # 禁用当前format文件
 DisableFormat: false
+
+# 大括号换行控制
+BreakBeforeBraces: Custom
+BraceWrapping: 
+    AfterClass: true
+    AfterControlStatement: false
+    AfterEnum: false
+    AfterFunction: false
+    AfterNamespace: true
+    AfterObjCDeclaration: true
+    AfterStruct: false
+    AfterUnion: false
+    BeforeCatch: false
+    BeforeElse: true
+    IndentBraces: false
+
+
+
 
