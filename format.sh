@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #Copyright (c) 2018 DingYusong
 
+oldpwd=`pwd`
 
 if [ ! -d ~/tools ]; then
     echo "create tools folder under $HOME"
@@ -20,6 +21,8 @@ fi
 source ~/.zshrc
 
 $SPACECOMMANDER/setup-repo.sh
+
+cd $oldpwd
 
 curl -o .clang-format https://raw.githubusercontent.com/DingYusong/formatCommander/master/.clang-format
 
