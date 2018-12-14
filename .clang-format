@@ -46,6 +46,9 @@ SpacesInSquareBrackets: false
 # 多行声明语句按照=对齐
 AlignConsecutiveDeclarations: false
 
+# 多行连续赋值对齐
+AlignConsecutiveAssignments: true
+
 # 容器类的空格 例如 OC的字典
 SpacesInContainerLiterals: false
 
