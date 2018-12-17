@@ -22,6 +22,11 @@ fi
 source ~/.zshrc
 
 cd $oldpwd
+
+if [[ ! -e .formatting-directory-ignore ]]; then
+	touch .formatting-directory-ignore
+fi
+
 $SPACECOMMANDER/setup-repo.sh
 
 curl -o .clang-format https://raw.githubusercontent.com/DingYusong/formatCommander/master/.clang-format
