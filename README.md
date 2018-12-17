@@ -10,6 +10,12 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/DingYusong/formatCommander/master/format.sh)"
 ```
 
+或者：
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/DingYusong/formatCommander/master/format_http.sh)"
+```
+
 
 
 1. 进入项目目录。
@@ -21,5 +27,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/DingYusong/formatCommander
 
 ```bash
 curl -o .clang-format https://raw.githubusercontent.com/DingYusong/formatCommander/master/.clang-format
+```
+
+
+
+.gitignore 缓存清理
+
+```
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
 ```
 
