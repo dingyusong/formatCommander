@@ -23,10 +23,6 @@ source ~/.zshrc
 
 cd $oldpwd
 
-if [[ ! -e .formatting-directory-ignore ]]; then
-	# touch .formatting-directory-ignore
-fi
-
 if [[ ! -e .gitignore ]]; then
 	curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Objective-C.gitignore
 fi
