@@ -11,7 +11,7 @@ fi
 if [ ! -d ~/tools/spacecommander ]; then
 	cd ~/tools
     echo "download spacecommander to $HOME/tools"
-    git clone git@github.com:square/spacecommander.git    
+    git clone git@github.com:DingYusong/spacecommander.git    
 fi
 
 if [ `grep -c "SPACECOMMANDER" ~/.zshrc` -eq '0' ]; then
